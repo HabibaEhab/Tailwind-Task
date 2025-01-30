@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="dist/output.css"/>
+    <!-- <link rel="stylesheet" href="css/input.css"/> -->
+
+</head>
+<body>
+   
+  <nav class="bg-white border-gray-200 ">
+    <div class="max-w-screen-xl flex items-center justify-between p-6">
+      <a href="" class="pe-18">
+          <img src="images/asset 0.png" class="h-7" alt="Logo" />
+      </a>
+     
+      <div class="  block w-auto mx-auto" id="navbar-default">
+        <ul class="font-medium flex flex-row p-4 md:p-0 mt-4 border border-transparent rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+            <li>
+                <a href="#" class="block py-2 px-3 text-gray-300 rounded-sm  border-0 hover:text-[#2D7A55] transition-all duration-100 font-bold">Home</a>
+            </li>
+
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-300 rounded-sm  border-0 hover:text-[#2D7A55] transition-all duration-100">About</a>
+          </li>
+          
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-300 rounded-sm  border-0 hover:text-[#2D7A55] transition-all duration-100">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="toggleButton" class="dark:bg-gray-800 bg-[#F3F4F6] text-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 hover:bg-gray-200 rounded-md px-6 py-2 md:-me-56 font-semibold">Light Mode</button>
+    </div>
+  </nav>
+
+
+  
+
+<div id="controls-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="images/testtwo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/code.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/laptop.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/laptopdark.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/typing.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+
+
+<div class="conatiner mx-auto dark:bg-[#030712] bg-[#F3F4F6] text-center text-white py-14 my-[1px]">
+    <div class=" title">
+        <h2 class="text-[48px] dark:text-white text-[#030712]">Tools</h2>
+        <p class=" dark:text-white text-[#030712]">Lorem ipsum dolor sit amet consectetur !</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 mx-auto gap-x-1 gap-y-4 w-[85%] mb-14">
+
+        
+       <div class="mt-10">
+            <a href="#" class="block py-8  bg-white border border-gray-200 rounded-lg shadow-sm relative">
+                <i class="fa-solid fa-anchor-circle-exclamation rounded-full p-3 w-10 h-10 text-center text-[#030712] bg-[#FBD5D5] absolute -top-4 left-48"></i>
+                <h5 class="mb-2 text-2xl tracking-tight text-gray-900 product relative">Product</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </a>
+       </div>
+
+
+       <div class="mt-10">
+            <a href="#" class="block py-8 bg-white border border-gray-200 rounded-lg shadow-sm relative">
+                <i class="fa-solid fa-square-h rounded-full p-3 w-10 h-10 text-center text-[#030712] bg-[#FBD5D5] absolute -top-4 left-48"></i>
+                <h5 class="mb-2 text-2xl tracking-tight text-gray-900 product relative">Product</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </a>
+       </div>
+
+
+       <div class="mt-10">
+            <a href="#" class="block py-8 bg-white border border-gray-200 rounded-lg shadow-sm relative">
+                <i class="fa-solid fa-jar-wheat rounded-full p-3 w-10 h-10 text-center text-[#030712] bg-[#FBD5D5] absolute -top-4 left-48"></i>
+                 <h5 class="mb-2 text-2xl tracking-tight text-gray-900 product relative">Product</h5>
+                 <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+             </a>
+        </div>
+
+
+        <div class="">
+            <a href="#" class="block py-8 bg-white border border-gray-200 rounded-lg shadow-sm relative">
+                <i class="fa-solid fa-water-ladder rounded-full p-3 w-10 h-10 text-center text-[#030712] bg-[#FBD5D5] absolute -top-4 left-48"></i>
+                <h5 class="mb-2 text-2xl tracking-tight text-gray-900 product relative">Product</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </a>
+       </div>
+
+
+       <div class="">
+            <a href="#" class="block py-8 bg-white border border-gray-200 rounded-lg shadow-sm relative">
+                <i class="fa-solid fa-icicles rounded-full p-3 w-10 h-10 text-center text-[#030712] bg-[#FBD5D5] absolute -top-4 left-48"></i>
+                <h5 class="mb-2 text-2xl tracking-tight text-gray-900 product relative">Product</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </a>
+       </div>
+
+
+       <div class="">
+            <a href="#" class="block py-8 bg-white border border-gray-200 rounded-lg shadow-sm relative">
+                <i class="fa-solid fa-wrench rounded-full p-3 w-10 h-10 text-center text-[#030712] bg-[#FBD5D5] absolute -top-4 left-48"></i>
+                 <h5 class="mb-2 text-2xl tracking-tight text-gray-900 product relative">Product</h5>
+                 <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+             </a>
+        </div>
+
+
+        
+
+    
+    
+
+    </div>
+
+</div>
+
+  
+
+<div class="footer bg-[#212529] py-10 flex justify-between">
+    <div class="pic w-44 mx-10">
+        <image src="images/asset 18.png" class="w-full" alt="app store"/>
+    </div>
+
+    <div class="icons text-white mx-10 my-5">
+        <i class="fa-brands fa-facebook pe-3"></i>
+        <i class="fa-brands fa-twitter pe-3"></i>
+        <i class="fa-brands fa-linkedin pe-3"></i>
+        <i class="fa-brands fa-youtube pe-3"></i>
+    </div>
+</div>
+
+
+
+
+
+
+
+ <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>
